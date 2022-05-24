@@ -1,11 +1,3 @@
-/**
- *Submitted for verification at Etherscan.io on 2022-05-05
-*/
-
-/**
- *Submitted for verification at Etherscan.io on 2022-05-02
-*/
-
 pragma solidity ^0.4.17;
 
     contract Token {
@@ -51,7 +43,6 @@ pragma solidity ^0.4.17;
 /// Functions:
 /// @dev Constructor
     function PresaleToken(address _escrow, uint256 _PRESALE_END_COUNTDOWN) public {
-    // numTokens = _numTokens;
     PRESALE_END_COUNTDOWN = _PRESALE_END_COUNTDOWN;
     require(_escrow != 0);
     escrow = _escrow;
@@ -111,21 +102,9 @@ pragma solidity ^0.4.17;
     return PRICE;
     }
     address public owner;
-
-//Transfer Function
-    // uint numTokens = 1000000000000000000;
     mapping(address => bool) public hasClaimed;
-    
-    // function Airdrop(address receiver) public returns (bool) {
-    // require(hasClaimed[msg.sender] == false) ;    
-    // balance[msg.sender] -= numTokens;
-    // balance[receiver] += numTokens;
-    // emit Transfer(msg.sender, receiver, numTokens);
-    // hasClaimed[msg.sender] == true;
-    // return true;
-    // }
 
-// Tranfer Owbnership
+// Transfer Ownership
     function Ownable() {
     owner = msg.sender;
     }
