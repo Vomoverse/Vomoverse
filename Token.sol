@@ -8,12 +8,6 @@ pragma solidity ^0.4.17;
     uint public constant PRICE = 100; // per 1 Ether
     uint actualPrice =PRICE-((PRICE/100)*2);
     
-
-// price
-// Cap is 4000 ETH
-// 1 eth = 100; presale 
-// uint public constant TOKEN_SUPPLY = 50000000 ;
-
     enum State{
     Init,
     Running
