@@ -1,0 +1,53 @@
+Purpose of Presale and Airdrop smart contract:
+
+1. Presale Contract is contract for purpose of selling Token to public. Here buyToken is on Timestamp basis which means buyer can not buy Token after given Timestamp. By default 
+we set 1 ether for 100 token means buyer can buy 100 token at 1 ether accordingly. 
+
+2. An airdrop[1] is an unsolicited distribution of a cryptocurrency token usually for free, to numerous wallet addresses. Airdrops are often associated with the launch of a new cryptocurrency primarily as a way of 
+gaining attention and new followers, resulting in a larger user base and a wider disbursement of coins.
+in this number of Token in configurable( means admin can set how many token can sent on each airdrop)
+
+Remix-Solidity
+
+Remix is a suite of tools that helps smart contract development, compilation, testing & deployment. These tools also works as a 
+core of native plugins of Remix IDE.
+
+Remix IDE is an IDE for Solidity dApp developers, powered by Remix. The Remix IDE repository is available here, and an online version is
+available at https://remix.ethereum.org.
+
+For more, check out the Remix IDE documentation.
+
+Contracts:
+1. Airdrop.sol
+2. Token.sol
+
+
+Deploy the Smart Contracts using remix ide and inject web3 for following steps:
+
+Write a smart contract for Airdrop and Presale  Functionality:
+
+The Presale tokens are based on the StandardToken and MintableToken ERC20 contracts.
+
+1 . First we compile the smart contract using compiler version on remix ide.
+2.  Deploy the smart contract using remix ide and choose deploy on local host or testnet:
+
+Local host :
+Javascript Berlin
+Javascript London
+
+Testnet:
+For testnet we choose inject web3 . Inject web3 connect on our metamask wallet.
+after that we deploy the smart contract on testnet.
+
+    
+
+
+
+
+
+
+
+
+
+
+
